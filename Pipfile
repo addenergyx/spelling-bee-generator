@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+pandas = "*"
+pyotp = "*"
+anticaptchaofficial = "*"
+forex-python = "*"
+common-shared-library = {git = "https://github.com/addenergyx/common-shared-library.git"}
+plutus-api = {git = "https://github.com/addenergyx/plutus-api.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
